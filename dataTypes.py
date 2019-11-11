@@ -30,8 +30,32 @@ print(int('0b101', 2))  # converts to base 2 then base 10
 # don't overwrite keywords
 # keywords https://www.w3schools.com/python/python_ref_keywords.asp
 
-bool
+# constants are all in capitals
+# two underscores are dundle __hihi
+
+a, b, c = 1, 2, 3  # creates 3 variables in quick succession
+
+iq = 100
+user_age = iq / 5  # after the = is an EXPRESSION and the whole line is a STATEMENT
+
+# augmented assignment operator += or -= (number)
+
 str
+long_string = '''
+WOW
+0 0
+---
+'''  # three single quotes will make multiline string
+# string concatination print('hello' + 'Dan')
+# Type conversion
+a = str(100)  # string
+b = int(a)  # int
+c = type(b)
+print(c)
+
+# escape sequence whatever comes directly after \ is treated as a string, to use \ in the string use \\
+# \t adds a tab, \n is a newline
+bool
 list
 tuple
 set
