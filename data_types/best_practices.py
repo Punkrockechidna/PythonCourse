@@ -17,3 +17,5 @@ iq = 100
 user_age = iq / 5  # after the = is an EXPRESSION and the whole line is a STATEMENT
 
 # augmented assignment operator += or -= (number)
+
+# Best practices commenting https://realpython.com/python-comments-guide/
