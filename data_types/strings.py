@@ -36,3 +36,13 @@ print(str[::-1])  # will print 76543210
 
 str[start:stop:stepover]  # this is called SLICING
 # strings are immutable, as in strings have immutability.  A string can be reassigned, but an INDEX of a string can NOT change.  Reassign all of none of it
+
+# useful methods
+quote = 'to be or not to be'
+print(quote.upper())
+print(quote.capitalize())
+print(quote.find('be'))
+print(quote.replace('be', 'me'))
+
+# https://docs.python.org/3/library/functions.html
+# https://www.w3schools.com/python/python_ref_string.asp
