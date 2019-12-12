@@ -34,7 +34,8 @@ print(str[0:8:2])  # will print 0246
 print(str[-1])  # will print 7, -2 will print 6
 print(str[::-1])  # will print 76543210
 
-str[start:stop:stepover]  # this is called SLICING
+# this is called SLICING
+# str[start:stop:stepover]
 # strings are immutable, as in strings have immutability.  A string can be reassigned, but an INDEX of a string can NOT change.  Reassign all of none of it
 
 # useful methods
