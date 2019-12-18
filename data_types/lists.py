@@ -76,5 +76,24 @@ basket = ['a', 'b', 'x','c', 'd', 'e', 'd']
 print(sorted(basket))
 # sorted CREATES NEW ARRAY
 new_basket = basket.copy() #Will also make a copy like slicing
+new_basket.sort()
 new_basket.reverse()
 print(new_basket)
+print(new_basket[::-1])
+
+# create list with range and join
+print(list(range(1,100)))
+# sentence = '! '
+# new_sentence = sentence.join(['hi','this', 'is', 'awesome'])
+# print(new_sentence)
+# short way
+new_sentence = ' '.join(['hi','this', 'is', 'awesome'])
+print(new_sentence)
+
+# List unpacking
+a,b,c, *other, d = [1,2,3,4,5,6,7,8,9]
+print(a)
+print(b)
+print(c)
+print(other)
+print(d)
