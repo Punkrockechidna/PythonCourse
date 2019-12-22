@@ -1,0 +1,27 @@
+4 pillars of OOP
+
+1. Encapsulation
+    - creating the class/object
+    - binding of functions and data into an object, attributes and methods
+    -"Encapsulating" functionality
+2. Abstraction
+    -Hiding of information
+    -Giving access to only what is necessary
+    -We use methods, but we don't really know how it works
+    -Putting an underscore before variable is convention saying please keep this private, don't overwrite it
+    -Dunder, double underscore, don't touch!
+3. Inheritance
+    -IN Python inheriting a class is done by putting parent class in child class def parentheses:Class Wizard(User)
+    -isinstance(instance, Class) tells us if it is an instance of the class
+    -(wizard1, Wizard) (wizard1, Class) (wizard1, object)
+    -children called subclass or derived class
+4. Polymorphism
+    -method names can act differently based on object class calling them
+
+Introspection
+    -determine type of an object at runtime
+    -dir() gives all methods and attributes in the object
+
+Multiple Inheritance
+    -http://www.srikanthtechnologies.com/blog/python/mro.aspx
+    -.mro() to see order
