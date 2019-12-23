@@ -1,0 +1,21 @@
+Functional programming
+-Data and functions are separate
+-Defined with data structures  instead of objects
+-Clear and Understandable
+-Easy to extend
+-Easy to maintain
+-Memory efficient
+-DRY
+
+PURE FUNCTIONS
+-Data/behavior separated
+-Given same input always gives same output
+-Should not produce any side effects (outside world/like printing)
+EXAMPLE:
+    def multiply_by_2(li):
+        new_list = []
+        for item in li:
+            new_list.append(items*2)
+        return new_list
+
+print(multiply_by_2([1,2,3]))
