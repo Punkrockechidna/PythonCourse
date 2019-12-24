@@ -19,4 +19,8 @@ def long_time():
         i * 5
 
 
-long_time()
+@performance
+def long_time2():
+    print('2')
+    for i in list(range(10000000)):
+        i * 5
