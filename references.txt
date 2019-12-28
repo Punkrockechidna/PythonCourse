@@ -1,1 +1,6 @@
 Error Handling https://docs.python.org/3/library/exceptions.html
+Python modules https://docs.python.org/3/py-modindex.html
+python projects community https://pypi.org/  - use pipenv to use virtual environments with different pip versions of
+packages
+
+path library  object oriented path library https://docs.python.org/3/library/pathlib.html
