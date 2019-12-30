@@ -6,3 +6,5 @@ packages
 path library  object oriented path library https://docs.python.org/3/library/pathlib.html
 
 reg expressions https://www.w3schools.com/python/python_regex.asp         regex101.com     https://regexone.com/
+
+WHATS' NEW  https://docs.python.org/3/whatsnew/3.8.html
